@@ -15,7 +15,7 @@ export default function Home() {
       }),
     };
     await fetch(
-      "api/users/register",
+      `${process.env.NEXT_PUBLIC_URL_API}/api/users/register`,
       requestOptions
     )
       .then((response) => console.log(response.json()))
