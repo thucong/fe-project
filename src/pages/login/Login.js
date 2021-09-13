@@ -5,6 +5,11 @@ import {
   FacebookOutlined,
   GoogleOutlined,
 } from "@ant-design/icons";
+
+import { library } from "@fortawesome/fontawesome-svg-core";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faFacebookF } from "@fortawesome/free-brands-svg-icons";
+
 const Login = () => {
   return (
     <div className={styles.container}>
@@ -48,7 +53,7 @@ const Login = () => {
             <GoogleOutlined />
           </button>
           <button className={styles.btn_facebook}>
-            <FacebookOutlined />
+            <FontAwesomeIcon icon={faFacebookF} />
           </button>
 
           <div className={styles.new_cus}>
