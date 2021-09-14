@@ -51,6 +51,11 @@
   cursor: pointer;
 }
 
+.linkIcon {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
 .linkTitle {
   margin-top: auto;
   margin-bottom: auto;

@@ -7,6 +7,7 @@ import {
   LogoutOutlined,
   ShopOutlined,
   UnorderedListOutlined,
+  RightOutlined,
 } from "@ant-design/icons";
 import Slide from "react-reveal/Slide";
 import styles from "./Layout.module.css";
@@ -26,9 +27,10 @@ const Layout = ({ children }) => {
           <MenuOutlined className={styles.menu} onClick={switchDrawer} />
           <div className={styles.linker}>
             <a className={styles.linkTitle}>Link 1</a>
-            <h4> > </h4>
+
+            <RightOutlined className={styles.linkIcon} />
             <a className={styles.linkTitle}>Link 2</a>
-            <h4> > </h4>
+            <RightOutlined className={styles.linkIcon} />
             <a className={styles.linkTitle}>Link 3</a>
           </div>
         </div>
