@@ -1,12 +1,6 @@
 import styles from "./Login.module.css";
-import {
-  UserOutlined,
-  LockOutlined,
-  FacebookOutlined,
-  GoogleOutlined,
-} from "@ant-design/icons";
+import { UserOutlined, LockOutlined, GoogleOutlined } from "@ant-design/icons";
 
-import { library } from "@fortawesome/fontawesome-svg-core";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFacebookF } from "@fortawesome/free-brands-svg-icons";
 
