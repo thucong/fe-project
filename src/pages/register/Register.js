@@ -1,4 +1,4 @@
-import styles from "./Register.module.css";
+import styles from "../login/Login.module.css";
 import { UserOutlined, LockOutlined, MailOutlined } from "@ant-design/icons";
 const Register = () => {
   return (
@@ -54,7 +54,7 @@ const Register = () => {
           <button className={styles.btn_login}>Register</button>
 
           <div className={styles.new_cus}>
-            <div className={styles.sign_up}>
+            <div className={styles.sign_in}>
               <h5> Already have an account?</h5>
               <a href="#">Sign In</a>
             </div>
