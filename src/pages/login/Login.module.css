@@ -183,3 +183,21 @@
   text-align: left;
   color: blue;
 }
+
+.sign_in {
+  display: flex;
+  flex-direction: column;
+}
+.sign_in h5 {
+  text-align: center;
+  color: #666;
+  font-size: 14px;
+  margin-top: 0px;
+  margin-bottom: 5px;
+}
+
+.sign_in a {
+  text-align: center;
+  color: blue;
+  text-transform: uppercase;
+}
