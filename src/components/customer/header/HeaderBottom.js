@@ -22,22 +22,22 @@ function HeaderBottom(props) {
             <div className={styles.main_menu}>
               <ul className={styles.nav_menu}>
                 <li className={styles.nav_item}>
-                  <a>item</a>
+                  <a>item1</a>
                 </li>
                 <li className={styles.nav_item}>
-                  <a>item</a>
+                  <a>item2</a>
                 </li>
                 <li className={styles.nav_item}>
-                  <a>item</a>
+                  <a>item3</a>
                 </li>
                 <li className={styles.nav_item}>
-                  <a>item</a>
+                  <a>item4</a>
                 </li>
                 <li className={styles.nav_item}>
-                  <a>item</a>
+                  <a>item5</a>
                 </li>
                 <li className={styles.nav_item}>
-                  <a>item</a>
+                  <a>item6</a>
                 </li>
               </ul>
             </div>
