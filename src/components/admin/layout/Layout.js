@@ -9,7 +9,6 @@ import {
   UnorderedListOutlined,
   RightOutlined,
 } from "@ant-design/icons";
-import Slide from "react-reveal/Slide";
 import styles from "./Layout.module.css";
 import Dashboard from "../dashboard/Dashboard";
 const Layout = ({ children }) => {

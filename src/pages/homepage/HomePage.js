@@ -1,10 +1,15 @@
 import Footer from "../../components/home/footer/Footer";
-const Home = () => {
+import ImageSlider from "../../components/home/carousel/ImageSlider";
+
+const HomePage = () => {
   return (
     <div>
+      Header here
+      <ImageSlider></ImageSlider>
+      Footer here
       <Footer />
     </div>
   );
 };
 
-export default Home;
+export default HomePage;
