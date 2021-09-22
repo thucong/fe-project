@@ -1,5 +1,5 @@
 import Footer from "../../components/home/footer/Footer";
-const Home = () => {
+const HomePage = () => {
   return (
     <div>
       <Footer />
@@ -7,4 +7,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default HomePage;
