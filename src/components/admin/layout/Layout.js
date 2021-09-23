@@ -10,7 +10,6 @@ import {
   RightOutlined,
 } from "@ant-design/icons";
 import styles from "./Layout.module.css";
-import Dashboard from "../dashboard/Dashboard";
 const Layout = ({ children }) => {
   const [showDrawer, setShowDrawer] = useState(true);
 
@@ -73,7 +72,7 @@ const Layout = ({ children }) => {
           </ul>
         </div>
         <div className={showDrawer ? styles.tableActive : styles.table}>
-          <Dashboard />
+          {children}
         </div>
       </div>
     </div>
