@@ -2,7 +2,7 @@ import Footer from "../../components/home/footer/Footer";
 import ImageSlider from "../../components/home/carousel/ImageSlider";
 import Header from "../../components/home/header/Header";
 import ProductCard from "../../components/home/card/ProductCard";
-import product1 from "../../img/testProduct.jpg";
+import product1 from "../../img/slide_one.jpg";
 const HomePage = () => {
   return (
     <div>
