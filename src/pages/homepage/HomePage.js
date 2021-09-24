@@ -1,6 +1,6 @@
-import Footer from "../../components/home/footer/Footer";
 import ImageSlider from "../../components/home/carousel/ImageSlider";
 import Header from "../../components/home/header/Header";
+import Footer from "../../components/home/footer/Footer";
 const HomePage = () => {
   return (
     <div>
