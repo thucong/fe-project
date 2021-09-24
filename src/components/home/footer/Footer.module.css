@@ -1,0 +1,146 @@
+.footer {
+  width: 100%;
+  border-top: 1px solid #bdbdbd;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  margin-bottom: 0px;
+  margin-top: 10px;
+}
+.info {
+  display: inline-block;
+  line-height: 40px;
+}
+.store_info {
+  width: 350px;
+  height: 320px;
+  padding-left: 5px;
+  margin-top: 25px;
+}
+.li {
+  list-style-type: none;
+  padding-left: 0px;
+  font-family: "Open Sans", sans-serif;
+  margin-top: 1px;
+}
+.span {
+  margin-left: 8px;
+}
+.information {
+  width: 250px;
+  height: 320px;
+  padding-left: 5px;
+  margin-top: 25px;
+}
+.extra {
+  width: 250px;
+  height: 320px;
+  padding-left: 5px;
+  margin-top: 25px;
+}
+.letter {
+  width: 400px;
+  height: 320px;
+  padding-left: 5px;
+  margin-top: 25px;
+}
+.h5 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.form {
+  width: 380px;
+  border: 1px solid #bdbdbd;
+  border-radius: 5px;
+  height: 40px;
+  margin-top: 15px;
+}
+.icon {
+  text-align: right;
+  padding-right: 10px;
+  border: none;
+}
+.icon:hover {
+  cursor: pointer;
+  color: blue;
+}
+.input {
+  width: 350px;
+  border: none;
+  height: 30px;
+  padding-left: 5px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+}
+.input:focus {
+  outline: none;
+}
+.social {
+  display: inline;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+.social:hover {
+  color: blue;
+}
+.social:focus {
+  color: blue;
+}
+.list {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  list-style-type: none;
+}
+.list1 {
+  float: left;
+}
+.list_social {
+  margin-top: 12px;
+}
+.hr {
+  width: 50px;
+  border-top: 2px solid blue;
+  float: left;
+}
+.span {
+  padding-top: 5px;
+}
+.a:hover {
+  color: blue;
+}
+.letter1 {
+  font-family: "Open Sans", sans-serif;
+}
+.bottom_footer {
+  width: 100%;
+  border-top: 1px solid #bdbdbd;
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  margin-top: 40px;
+  float: left;
+}
+.img {
+  margin-left: 10px;
+  margin-top: 20px;
+}
+.img:hover {
+  cursor: pointer;
+}
+.img_footer {
+  margin-top: 10px;
+  width: 300px;
+}
+.p {
+  width: 950px;
+  font-family: "Open Sans", sans-serif;
+}
+.name {
+  box-shadow: 0 1px #bdbdbd;
+}
+.color {
+  color: #507fc7;
+}

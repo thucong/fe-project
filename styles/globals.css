@@ -26,3 +26,23 @@ a {
   color: inherit;
   font: inherit;
 }
+
+.header {
+  z-index: 99;
+  position: relative;
+  height: 167px;
+  width: 100%;
+}
+.sticky.fixed {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 999;
+  transition: all 0.3s ease;
+  background: #fff;
+  box-shadow: 0 0 8px #ddd;
+  height: auto;
+}
+.sticky.fixed .header_container {
+  display: none !important;
+}
