@@ -1,5 +1,6 @@
 import Layout from "../../components/admin/layout/Layout";
 import DataTable from "../../components/admin/table/DataTable";
+import DashBoard from "../../components/admin/dashboard/Dashboard";
 
 const Admin = () => {
   return (

@@ -22,7 +22,7 @@
   margin-right: auto;
   margin-left: auto;
   border-collapse: separate;
-  width: 1067px;
+  width: 1052px;
 }
 
 .search_add input {
@@ -64,7 +64,7 @@
 }
 
 .table thead th {
-  width: 160px;
+  width: 180px;
   height: 40px;
 }
 
@@ -77,6 +77,7 @@
 .table thead th:last-child {
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
+  width: 60px;
 }
 
 .table_row {
