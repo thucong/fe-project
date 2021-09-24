@@ -1,0 +1,163 @@
+.table_container {
+  justify-content: center;
+  text-align: center;
+  font-family: var(--font-family);
+}
+.input_form {
+  position: relative;
+}
+
+.search_icon {
+  position: absolute;
+  top: 7px;
+  left: 5px;
+  font-size: 25px;
+  color: white;
+}
+
+.search_add {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  border-collapse: separate;
+  width: 1067px;
+}
+
+.search_add input {
+  width: 500px;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  background-color: #39d5d5;
+  color: white;
+  padding-left: 50px;
+}
+
+.search_add input::placeholder {
+  color: white;
+}
+
+.add_button {
+  background-color: #39d5d5;
+  color: white;
+  border-radius: 5px;
+  height: 40px;
+}
+
+.table_container h2 {
+  font-size: 30px;
+}
+
+.table {
+  justify-content: center;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  border-collapse: separate;
+  border-spacing: 0 15px;
+}
+
+.table thead {
+  background-color: #dedede;
+}
+
+.table thead th {
+  width: 160px;
+  height: 40px;
+}
+
+.table thead th:first-child {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  width: 60px;
+}
+
+.table thead th:last-child {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.table_row {
+  background-color: #ffffff;
+  box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.2);
+}
+
+.table_row:hover {
+  transform: translateY(-2px);
+}
+
+.table_row td {
+  height: 40px;
+  margin-top: 50px;
+}
+
+.table_row td:first-child {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.table_row td:last-child {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.view_button {
+  background-color: #2424f5;
+  color: white;
+  border-radius: 5px;
+}
+
+.edit_button {
+  background-color: #ff8c00;
+  color: white;
+  border-radius: 5px;
+}
+
+.delete_button {
+  background-color: #ff0000;
+  color: white;
+  border-radius: 5px;
+}
+
+.bottom_page {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  border-collapse: separate;
+  width: 980px;
+  margin-top: 10px;
+}
+
+.bottom_page h3 {
+  margin-top: 5px;
+}
+
+.pagination {
+  display: flex;
+}
+
+.pagination h4 {
+  margin-top: 5px;
+  margin-right: 10px;
+}
+
+.go_left_button {
+  background-color: #c4c4c4;
+  color: white;
+}
+
+.go_right_button {
+  background-color: #39d5d5;
+  color: white;
+}
+
+.icon {
+  font-size: 15px;
+  font-weight: 800;
+}
