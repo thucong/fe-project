@@ -12,7 +12,6 @@ function Header(props) {
   };
   useEffect(() => {
     window.addEventListener("scroll", listenScrollEvent);
-
     return () => window.removeEventListener("scroll", listenScrollEvent);
   }, []);
   return (
