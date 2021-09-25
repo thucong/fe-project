@@ -23,7 +23,7 @@ function HeaderTop(props) {
             <div className={styles.logo}>
               <Link href="/" passHref>
                 <a>
-                  <Image src={logo} alt="logo" width={60} height={35}></Image>
+                  <Image src={logo} alt="logo" width={60} height={60}></Image>
                 </a>
               </Link>
             </div>
