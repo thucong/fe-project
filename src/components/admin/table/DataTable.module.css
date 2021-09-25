@@ -22,7 +22,7 @@
   margin-right: auto;
   margin-left: auto;
   border-collapse: separate;
-  width: 1067px;
+  width: 90%;
 }
 
 .search_add input {
@@ -57,6 +57,7 @@
   margin-left: auto;
   border-collapse: separate;
   border-spacing: 0 15px;
+  width: 90%;
 }
 
 .table thead {
@@ -64,19 +65,20 @@
 }
 
 .table thead th {
-  width: 160px;
+  width: 180px;
   height: 40px;
 }
 
 .table thead th:first-child {
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
-  width: 60px;
+  width: 5%;
 }
 
 .table thead th:last-child {
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
+  width: 5%;
 }
 
 .table_row {
@@ -130,7 +132,7 @@
   margin-right: auto;
   margin-left: auto;
   border-collapse: separate;
-  width: 980px;
+  width: 85%;
   margin-top: 10px;
 }
 

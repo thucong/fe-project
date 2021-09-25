@@ -1,6 +1,14 @@
 import "antd/dist/antd.css";
 import { Button } from "antd";
-import { LeftOutlined, RightOutlined, SearchOutlined } from "@ant-design/icons";
+import {
+  LeftOutlined,
+  RightOutlined,
+  SearchOutlined,
+  PlusOutlined,
+  EyeOutlined,
+  EditOutlined,
+  DeleteOutlined,
+} from "@ant-design/icons";
 import styles from "./DataTable.module.css";
 function DataTable(props) {
   return (
@@ -11,7 +19,9 @@ function DataTable(props) {
           <SearchOutlined className={styles.search_icon} />
           <input placeholder="Search by fullname/username/phone"></input>
         </div>
-        <Button className={styles.add_button}>Add new</Button>
+        <Button className={styles.add_button}>
+          <PlusOutlined className={styles.add_icon} />
+        </Button>
       </div>
       <table cellSpacing="0" className={styles.table}>
         <thead>
@@ -22,7 +32,7 @@ function DataTable(props) {
             <th>{props.headers[2]}</th>
             <th>{props.headers[3]}</th>
             <th>{props.headers[4]}</th>
-            <th colSpan="3">Actions</th>
+            <th colSpan="2">Actions</th>
           </tr>
         </thead>
         <tbody>
@@ -35,13 +45,14 @@ function DataTable(props) {
               <td>{user.dateofbirth}</td>
               <td>{user.role}</td>
               <td>
-                <Button className={styles.view_button}>View</Button>
+                <Button className={styles.edit_button}>
+                  <EditOutlined />
+                </Button>
               </td>
               <td>
-                <Button className={styles.edit_button}>Edit</Button>
-              </td>
-              <td>
-                <Button className={styles.delete_button}>Delete</Button>
+                <Button className={styles.delete_button}>
+                  <DeleteOutlined />
+                </Button>
               </td>
             </tr>
           ))}
