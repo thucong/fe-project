@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import styles from "./Header.module.css";
 import Image from "next/image";
 import Link from "next/link";
-import logo from "../../../img/logo.jpg";
+import logo from "/logo.jpg";
 function HeaderTop(props) {
   const [hiddenAccount, setHiddenAccount] = useState(true);
   const [hiddenCart, setHiddenCart] = useState(true);
