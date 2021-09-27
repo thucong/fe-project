@@ -24,13 +24,6 @@ const Layout = ({ children }) => {
           <div className={styles.logo}></div>
           <div className={styles.projectTitle}>Project name</div>
           <MenuOutlined className={styles.menu} onClick={switchDrawer} />
-          <div className={styles.linker}>
-            <a className={styles.linkTitle}>Link 1</a>
-            <RightOutlined className={styles.linkIcon} />
-            <a className={styles.linkTitle}>Link 2</a>
-            <RightOutlined className={styles.linkIcon} />
-            <a className={styles.linkTitle}>Link 3</a>
-          </div>
         </div>
         <div className={styles.avatar}>
           <div className={styles.welcome}>Welcome</div>
