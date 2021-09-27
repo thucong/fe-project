@@ -13,7 +13,7 @@ import styles from "./DataTable.module.css";
 function DataTable(props) {
   return (
     <div className={styles.table_container}>
-      <h2>LIST USER</h2>
+      <h2 className={styles.title}>LIST USER</h2>
       <div className={styles.search_add}>
         <div className={styles.input_form}>
           <SearchOutlined className={styles.search_icon} />
