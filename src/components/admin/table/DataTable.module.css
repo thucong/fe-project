@@ -4,9 +4,9 @@
   font-family: var(--font-family);
 }
 
-.table_container h2 {
-  font-size: 1.3vw;
-  margin-bottom: 2vh;
+.table_container .title {
+  font-size: 5vh;
+  margin-bottom: 3vh;
 }
 .input_form {
   position: relative;
@@ -32,13 +32,13 @@
 }
 
 .search_add input {
-  width: 500px;
+  width: 35vw;
   height: 100%;
   border-radius: 5px;
   border: none;
   background-color: #39d5d5;
   color: white;
-  padding-left: 50px;
+  padding-left: 4vw;
   font-size: 1.1vw;
 }
 
