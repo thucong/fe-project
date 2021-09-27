@@ -33,7 +33,7 @@
   background-color: #39d5d5;
   color: white;
   padding-left: 50px;
-  font-size: 1.2vw;
+  font-size: 1.1vw;
 }
 
 .search_add input::placeholder {
@@ -45,7 +45,7 @@
   color: white;
   border-radius: 5px;
   height: 100%;
-  font-size: 1.2vw;
+  font-size: 1.1vw;
 }
 
 .table_container h2 {
@@ -65,7 +65,7 @@
   border-spacing: 0 15px;
   width: 90%;
   height: 100%;
-  font-size: 1.2vw;
+  font-size: 1.1vw;
 }
 
 .table thead {
@@ -124,8 +124,8 @@
   background-color: #ff8c00;
   color: white;
   border-radius: 5px;
-  height: 90%;
-  font-size: 1.2vw;
+  height: 85%;
+  font-size: 1.1vw;
 }
 
 .delete_button {
@@ -133,8 +133,8 @@
   color: white;
   border-radius: 5px;
   margin-right: 5px;
-  height: 90%;
-  font-size: 1.2vw;
+  height: 85%;
+  font-size: 1.1vw;
 }
 
 .bottom_page {
@@ -150,6 +150,7 @@
 
 .bottom_page h3 {
   margin-top: 5px;
+  font-size: 1.1vw;
 }
 
 .pagination {
@@ -159,16 +160,19 @@
 .pagination h4 {
   margin-top: 5px;
   margin-right: 10px;
+  font-size: 1.1vw;
 }
 
 .go_left_button {
   background-color: #c4c4c4;
   color: white;
+  font-size: 1.1vw;
 }
 
 .go_right_button {
   background-color: #39d5d5;
   color: white;
+  font-size: 1.1vw;
 }
 
 .icon {
