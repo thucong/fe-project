@@ -3,6 +3,11 @@
   text-align: center;
   font-family: var(--font-family);
 }
+
+.table_container h2 {
+  font-size: 1.3vw;
+  margin-bottom: 2vh;
+}
 .input_form {
   position: relative;
 }
@@ -11,9 +16,7 @@
   position: absolute;
   top: 7px;
   left: 5px;
-  margin-top: auto;
-  margin-bottom: auto;
-  font-size: 25px;
+  font-size: 2vw;
   color: white;
 }
 
@@ -49,7 +52,7 @@
   border-radius: 5px;
   height: 100%;
   width: 4vw;
-  font-size: 1.1vw;
+  font-size: 1.5vw;
 }
 
 .table_container h2 {
