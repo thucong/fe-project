@@ -27,12 +27,13 @@
 
 .search_add input {
   width: 500px;
-  height: 40px;
+  height: 100%;
   border-radius: 5px;
   border: none;
   background-color: #39d5d5;
   color: white;
   padding-left: 50px;
+  font-size: 1.2vw;
 }
 
 .search_add input::placeholder {
@@ -43,7 +44,8 @@
   background-color: #39d5d5;
   color: white;
   border-radius: 5px;
-  height: 40px;
+  height: 100%;
+  font-size: 1.2vw;
 }
 
 .table_container h2 {
@@ -122,6 +124,8 @@
   background-color: #ff8c00;
   color: white;
   border-radius: 5px;
+  height: 90%;
+  font-size: 1.2vw;
 }
 
 .delete_button {
@@ -129,6 +133,8 @@
   color: white;
   border-radius: 5px;
   margin-right: 5px;
+  height: 90%;
+  font-size: 1.2vw;
 }
 
 .bottom_page {
