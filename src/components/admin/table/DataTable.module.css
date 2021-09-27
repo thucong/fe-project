@@ -11,6 +11,8 @@
   position: absolute;
   top: 7px;
   left: 5px;
+  margin-top: auto;
+  margin-bottom: auto;
   font-size: 25px;
   color: white;
 }
@@ -46,6 +48,7 @@
   color: white;
   border-radius: 5px;
   height: 100%;
+  width: 4vw;
   font-size: 1.1vw;
 }
 
@@ -75,7 +78,7 @@
 
 .table thead th {
   width: 180px;
-  height: 40px;
+  height: 6vh;
 }
 
 .table thead th:first-child {
