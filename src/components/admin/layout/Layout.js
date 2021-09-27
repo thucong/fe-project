@@ -24,14 +24,6 @@ const Layout = ({ children }) => {
           <div className={styles.logo}></div>
           <div className={styles.projectTitle}>Project name</div>
           <MenuOutlined className={styles.menu} onClick={switchDrawer} />
-          <div className={styles.linker}>
-            <a className={styles.linkTitle}>Link 1</a>
-
-            <RightOutlined className={styles.linkIcon} />
-            <a className={styles.linkTitle}>Link 2</a>
-            <RightOutlined className={styles.linkIcon} />
-            <a className={styles.linkTitle}>Link 3</a>
-          </div>
         </div>
         <div className={styles.avatar}>
           <div className={styles.welcome}>Welcome</div>
@@ -46,27 +38,27 @@ const Layout = ({ children }) => {
             <li>
               <div className={styles.menuItem}>
                 <LineChartOutlined className={styles.menuIcon} />
-                <a href="#">Dashboard</a>
+                <div>Dashboard</div>
               </div>
               <div className={styles.menuItem}>
                 <TeamOutlined className={styles.menuIcon} />
-                <a href="#">Users</a>
+                <div>Users</div>
               </div>
               <div className={styles.menuItem}>
                 <ShopOutlined className={styles.menuIcon} />
-                <a href="#">Products</a>
+                <div>Products</div>
               </div>
               <div className={styles.menuItem}>
                 <UnorderedListOutlined className={styles.menuIcon} />
-                <a href="#">Orders</a>
+                <div>Orders</div>
               </div>
               <div className={styles.menuItem}>
                 <UserOutlined className={styles.menuIcon} />
-                <a href="#">Profile</a>
+                <div>Profile</div>
               </div>
               <div className={styles.menuItem}>
                 <LogoutOutlined className={styles.menuIcon} />
-                <a href="#">Logout</a>
+                <div>Logout</div>
               </div>
             </li>
           </ul>

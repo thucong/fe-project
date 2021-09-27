@@ -2,7 +2,6 @@
 
 :root {
   --text-color: black;
-
   --font-family: "Poppins", san-serif;
   --box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.05);
 }
@@ -30,7 +29,7 @@ a {
 .header {
   z-index: 99;
   position: relative;
-  height: 167px;
+  height: 140px;
   width: 100%;
 }
 .sticky.fixed {

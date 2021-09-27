@@ -3,6 +3,11 @@
   text-align: center;
   font-family: var(--font-family);
 }
+
+.table_container .title {
+  font-size: 5vh;
+  margin-bottom: 3vh;
+}
 .input_form {
   position: relative;
 }
@@ -11,7 +16,7 @@
   position: absolute;
   top: 7px;
   left: 5px;
-  font-size: 25px;
+  font-size: 2vw;
   color: white;
 }
 
@@ -22,17 +27,19 @@
   margin-right: auto;
   margin-left: auto;
   border-collapse: separate;
-  width: 1067px;
+  width: 90%;
+  height: 6vh;
 }
 
 .search_add input {
-  width: 500px;
-  height: 40px;
+  width: 35vw;
+  height: 100%;
   border-radius: 5px;
   border: none;
   background-color: #39d5d5;
   color: white;
-  padding-left: 50px;
+  padding-left: 3.5vw;
+  font-size: 1.1vw;
 }
 
 .search_add input::placeholder {
@@ -43,11 +50,17 @@
   background-color: #39d5d5;
   color: white;
   border-radius: 5px;
-  height: 40px;
+  height: 100%;
+  width: 4vw;
+  font-size: 1.5vw;
 }
 
 .table_container h2 {
   font-size: 30px;
+}
+
+.vh_container {
+  height: 62vh;
 }
 
 .table {
@@ -57,6 +70,9 @@
   margin-left: auto;
   border-collapse: separate;
   border-spacing: 0 15px;
+  width: 90%;
+  height: 100%;
+  font-size: 1.1vw;
 }
 
 .table thead {
@@ -64,19 +80,20 @@
 }
 
 .table thead th {
-  width: 160px;
-  height: 40px;
+  width: 180px;
+  height: 6vh;
 }
 
 .table thead th:first-child {
   border-top-left-radius: 5px;
   border-bottom-left-radius: 5px;
-  width: 60px;
+  width: 5%;
 }
 
 .table thead th:last-child {
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
+  width: 5%;
 }
 
 .table_row {
@@ -91,7 +108,6 @@
 }
 
 .table_row td {
-  height: 40px;
   margin-top: 50px;
 }
 
@@ -115,12 +131,17 @@
   background-color: #ff8c00;
   color: white;
   border-radius: 5px;
+  height: 85%;
+  font-size: 1.1vw;
 }
 
 .delete_button {
   background-color: #ff0000;
   color: white;
   border-radius: 5px;
+  margin-right: 5px;
+  height: 85%;
+  font-size: 1.1vw;
 }
 
 .bottom_page {
@@ -130,12 +151,15 @@
   margin-right: auto;
   margin-left: auto;
   border-collapse: separate;
-  width: 980px;
+  width: 86%;
+  height: 5vh;
   margin-top: 10px;
 }
 
 .bottom_page h3 {
-  margin-top: 5px;
+  font-size: 1.1vw;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .pagination {
@@ -143,21 +167,26 @@
 }
 
 .pagination h4 {
-  margin-top: 5px;
   margin-right: 10px;
+  font-size: 1.1vw;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .go_left_button {
   background-color: #c4c4c4;
   color: white;
+  height: 100%;
 }
 
 .go_right_button {
   background-color: #39d5d5;
   color: white;
+  height: 100%;
 }
 
 .icon {
-  font-size: 15px;
-  font-weight: 800;
+  font-size: 1.1vw;
+  margin-top: auto;
+  margin-bottom: auto;
 }

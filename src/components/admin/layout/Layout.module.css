@@ -4,6 +4,8 @@
   display: flex;
   justify-content: space-between;
   height: 64px;
+  font-family: var(--font-family);
+  color: var(--text-color);
 }
 
 .left {
@@ -28,6 +30,8 @@
   margin-top: auto;
   margin-bottom: auto;
   font-size: 15px;
+  font-family: var(--font-family);
+  color: var(--text-color);
 }
 
 .menu {
@@ -41,6 +45,8 @@
 .linker {
   margin-left: 50px;
   display: flex;
+  font-family: var(--font-family);
+  color: var(--text-color);
 }
 
 .linker a:last-child {
@@ -61,6 +67,8 @@
   margin-bottom: auto;
   margin-left: 30px;
   margin-right: 30px;
+  font-family: var(--font-family);
+  color: var(--text-color);
 }
 
 .avatar {
@@ -72,6 +80,8 @@
   margin-bottom: auto;
   flex: 1;
   margin-right: 5px;
+  font-family: var(--font-family);
+  color: var(--text-color);
 }
 
 .name {
@@ -81,6 +91,7 @@
   margin-right: 10px;
   color: #39d5d5;
   text-decoration: underline;
+  font-family: var(--font-family);
 }
 
 .ava {
@@ -115,6 +126,8 @@
   left: -100%;
   padding: 0 30px;
   transition: all 1.5s;
+  font-family: var(--font-family);
+  color: var(--text-color);
 }
 
 .sideNavActive {
@@ -127,6 +140,8 @@
   z-index: 1;
   overflow-x: hidden;
   transition: all 1s;
+  font-family: var(--font-family);
+  color: var(--text-color);
 }
 
 .sideNav p {
@@ -191,8 +206,12 @@
 
 .menuItem:hover {
   color: #39d5d5;
+  cursor: pointer;
 }
 
+.menuItem a {
+  color: var(--text-color);
+}
 .menuIcon {
   margin-top: auto;
   margin-bottom: auto;
