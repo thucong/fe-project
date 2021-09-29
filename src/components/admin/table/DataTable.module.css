@@ -2,6 +2,7 @@
   justify-content: center;
   text-align: center;
   font-family: var(--font-family);
+  position: relative;
 }
 
 .table_container .title {
@@ -189,4 +190,26 @@
   font-size: 1.1vw;
   margin-top: auto;
   margin-bottom: auto;
+}
+
+.modal {
+  position: absolute !important;
+  display: inline-block;
+  left: 50%;
+  top: 50%;
+  width: 50%;
+}
+
+.modal:not(.is_show) {
+  transform: translate(-50%, -100vh);
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.is_show {
+  z-index: 10;
+  transform: translate(-50%, -50%);
+  opacity: 1;
+  transition: all 0.5s;
+  transition-timing-function: ease-out;
 }

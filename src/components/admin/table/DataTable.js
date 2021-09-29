@@ -10,7 +10,39 @@ import {
   DeleteOutlined,
 } from "@ant-design/icons";
 import styles from "./DataTable.module.css";
+import { useState } from "react";
+import AddModal from "../Modal/AddModal";
+import EditModal from "../Modal/EditModal";
+import DeleteModal from "../Modal/DeleteModal";
+
 function DataTable(props) {
+  const [showAdd, setShowAdd] = useState(false);
+  const [showEdit, setShowEdit] = useState(false);
+  const [showDelete, setShowDelete] = useState(false);
+  const closeAdd = () => {
+    setShowAdd(false);
+  };
+  const openAdd = () => {
+    setShowAdd(true);
+    setShowEdit(false);
+    setShowDelete(false);
+  };
+  const openEdit = () => {
+    setShowEdit(true);
+    setShowAdd(false);
+    setShowDelete(false);
+  };
+  const closeEdit = () => {
+    setShowEdit(false);
+  };
+  const openDelete = () => {
+    setShowDelete(true);
+    setShowEdit(false);
+    setShowAdd(false);
+  };
+  const closeDelete = () => {
+    setShowDelete(false);
+  };
   return (
     <div className={styles.table_container}>
       <h2 className={styles.title}>LIST USER</h2>
@@ -19,7 +51,7 @@ function DataTable(props) {
           <SearchOutlined className={styles.search_icon} />
           <input placeholder="Search by fullname/username/phone"></input>
         </div>
-        <Button className={styles.add_button}>
+        <Button className={styles.add_button} onClick={openAdd}>
           <PlusOutlined className={styles.add_icon} />
         </Button>
       </div>
@@ -46,12 +78,12 @@ function DataTable(props) {
                 <td>{user.dateofbirth}</td>
                 <td>{user.role}</td>
                 <td>
-                  <Button className={styles.edit_button}>
+                  <Button className={styles.edit_button} onClick={openEdit}>
                     <EditOutlined />
                   </Button>
                 </td>
                 <td>
-                  <Button className={styles.delete_button}>
+                  <Button className={styles.delete_button} onClick={openDelete}>
                     <DeleteOutlined />
                   </Button>
                 </td>
@@ -71,6 +103,15 @@ function DataTable(props) {
             <RightOutlined className={styles.icon} />
           </Button>
         </div>
+      </div>
+      <div className={`${styles.modal}  ${showAdd ? styles.is_show : ""}`}>
+        <AddModal showAdd={showAdd} closeAdd={closeAdd} />
+      </div>
+      <div className={`${styles.modal}  ${showEdit ? styles.is_show : ""}`}>
+        <EditModal showEdit={showEdit} closeEdit={closeEdit} />
+      </div>
+      <div className={`${styles.modal}  ${showDelete ? styles.is_show : ""}`}>
+        <DeleteModal showDelete={showDelete} closeDelete={closeDelete} />
       </div>
     </div>
   );
