@@ -105,10 +105,38 @@ function DataTable(props) {
         </div>
       </div>
       <div className={`${styles.modal}  ${showAdd ? styles.is_show : ""}`}>
-        <AddModal showAdd={showAdd} closeAdd={closeAdd} />
+        <AddModal
+          showAdd={showAdd}
+          closeAdd={closeAdd}
+          headers={[
+            "Username",
+            "Fullname",
+            "Password",
+            "Confirm password",
+            "Phone",
+            "Gmail",
+            "Address",
+            "Date of Birth",
+            "Role",
+          ]}
+        />
       </div>
       <div className={`${styles.modal}  ${showEdit ? styles.is_show : ""}`}>
-        <EditModal showEdit={showEdit} closeEdit={closeEdit} />
+        <EditModal
+          showEdit={showEdit}
+          closeEdit={closeEdit}
+          headers={[
+            "Username",
+            "Fullname",
+            "Password",
+            "Confirm password",
+            "Phone",
+            "Gmail",
+            "Address",
+            "Date of Birth",
+            "Role",
+          ]}
+        />
       </div>
       <div className={`${styles.modal}  ${showDelete ? styles.is_show : ""}`}>
         <DeleteModal showDelete={showDelete} closeDelete={closeDelete} />
