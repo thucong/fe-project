@@ -1,55 +1,55 @@
 import styles from "./Modal.module.css";
 
-const EditModal = ({ closeEdit }) => {
+const EditModal = ({ closeEdit, headers }) => {
   return (
     <div className={styles.modal}>
       <h2 className={styles.h2}>EDIT USER</h2>
       <div className={styles.grid_container}>
         <div className={styles.grid_item}>
           <label className={styles.label}>
-            {props.headers[0]} <span className={styles.span}>*</span>
+            {headers[0]} <span className={styles.span}>*</span>
           </label>
           <br />
           <input type="text" className={styles.input}></input>
         </div>
         <div className={styles.grid_item}>
           <label className={styles.label}>
-            {props.headers[1]} <span className={styles.span}>*</span>
+            {headers[1]} <span className={styles.span}>*</span>
           </label>
           <br />
           <input type="text" className={styles.input}></input>
         </div>
         <div className={styles.grid_item}>
           <label className={styles.label}>
-            {props.headers[2]} <span className={styles.span}>*</span>
+            {headers[2]} <span className={styles.span}>*</span>
           </label>
           <br />
           <input type="password" className={styles.input}></input>
         </div>
         <div className={styles.grid_item}>
           <label className={styles.label}>
-            {props.headers[3]} <span className={styles.span}>*</span>
+            {headers[3]} <span className={styles.span}>*</span>
           </label>
           <br />
           <input type="password" className={styles.input}></input>
         </div>
         <div className={styles.grid_item}>
           <label className={styles.label}>
-            {props.headers[4]} <span className={styles.span}>*</span>
+            {headers[4]} <span className={styles.span}>*</span>
           </label>
           <br />
           <input type="text" className={styles.input}></input>
         </div>
         <div className={styles.grid_item}>
           <label className={styles.label}>
-            {props.headers[5]} <span className={styles.span}>*</span>
+            {headers[5]} <span className={styles.span}>*</span>
           </label>
           <br />
           <input type="text" className={styles.input}></input>
         </div>
         <div className={styles.grid_item}>
           <label className={styles.label}>
-            {props.headers[6]} <span className={styles.span}>*</span>
+            {headers[6]} <span className={styles.span}>*</span>
           </label>
           <br />
           <input type="text" className={styles.input}></input>
@@ -58,14 +58,14 @@ const EditModal = ({ closeEdit }) => {
           <div className={styles.grid_container1}>
             <div>
               <label className={styles.label}>
-                {props.headers[7]} <span className={styles.span}>*</span>
+                {headers[7]} <span className={styles.span}>*</span>
               </label>
               <br />
               <input type="date" className={styles.date}></input>
             </div>
             <div>
               <label className={styles.label}>
-                {props.headers[8]} <span className={styles.span}>*</span>
+                {headers[8]} <span className={styles.span}>*</span>
               </label>
               <br />
               <select className={styles.select}>
