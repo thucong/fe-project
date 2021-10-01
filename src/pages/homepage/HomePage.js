@@ -16,9 +16,11 @@ const HomePage = ({products}) => {
         labels={["fresh", "vegetable", "frozen"]}
         images={product1}
       /> */}
+      <div className={styles.card}>
         {products.map((product) => (
-      <div className={styles.card}><ProductCard key={product._id} productName={product.productName} price={product.price} description={product.description} labels={product.label} image={product.productThumbnail}/></div>
+      <ProductCard key={product._id} productName={product.productName} price={product.price} description={product.description} labels={product.label} image={product.productThumbnail}/>
         ))}
+        </div>
       <Footer />
     </div>
   );
