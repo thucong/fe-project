@@ -195,9 +195,9 @@
 .modal {
   position: absolute !important;
   display: inline-block;
-  left: 50%;
+  left: 110vw;
   top: 50%;
-  width: 65%;
+  width: 200vw;
 }
 
 .modal:not(.is_show) {
