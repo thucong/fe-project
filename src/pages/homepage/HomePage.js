@@ -27,7 +27,6 @@ const HomePage = ({ products }) => {
 };
 export const getStaticProps = async () => {
   const products = await getProducts();
-  //console.log(products);
   return {
     props: {
       products,
