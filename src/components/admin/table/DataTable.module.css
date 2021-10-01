@@ -197,7 +197,7 @@
   display: inline-block;
   left: 50%;
   top: 50%;
-  width: 50%;
+  width: 65%;
 }
 
 .modal:not(.is_show) {

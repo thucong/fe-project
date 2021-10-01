@@ -34,7 +34,7 @@
 }
 .label {
   float: left;
-  padding-left: 20px;
+  padding-left: 25px;
   font-size: 20px;
 }
 .h2 {
@@ -57,8 +57,8 @@
   border-radius: 5px;
   border: 1px solid #bdbdbd;
   height: 40px;
-  width: 80%;
- margin-right: 20px;
+  width: 85%;
+  margin-right: 25px;
 }
 .cancel {
   border: 1px solid white;
