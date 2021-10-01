@@ -1,31 +1,27 @@
 import React from "react";
-import Image from "next/image";
 import Slide from "react-reveal/Slide";
 import styles from "./ProductCard.module.css";
 
 export default function ProductCard(props) {
-  let { productName, price, description, labels } = props;
+  let { productName, price, description, labels, image } = props;
+
   return (
     <Slide left>
       <div className={styles.card}>
         <div className={styles.wrapper}>
           <div className={styles.card_img}>
-            <Image
-              src={props.images}
-              alt="Product Image"
-              className={styles.image}
-            ></Image>
+            <img src={image} alt="Product Image" className={styles.image}></img>
           </div>
 
           <div className={styles.cardInfo}>
             <div className={styles.label}>
               {labels.slice(0, 2).map((label, i) => (
                 <div key={i} className={styles.label_item}>
-                  {label}
+                  {label.labelName}
                 </div>
               ))}
             </div>
-            <h1>{productName}</h1>
+            <h1>{productName.substring(0, 20) + " ..."}</h1>
             <p className={styles.date_}>
               {description.substring(0, 70) + " ..."}
             </p>
