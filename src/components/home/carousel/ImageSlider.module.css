@@ -1,8 +1,10 @@
 .embla {
   position: relative;
   background-color: #f7f7f7;
-  width: 100%;
-  height: 80vh;
+  width: 1230px;
+  max-width: 100%;
+  margin: 0 auto;
+  height: 60vh;
 }
 
 .embla__viewport {
@@ -37,19 +39,19 @@
 .embla__slide__inner_image1 {
   position: relative;
   overflow: hidden;
-  height: 80vh;
+  height: 60vh;
   background-image: url("../../../img/slide_one.jpg");
 }
 .embla__slide__inner_image2 {
   position: relative;
   overflow: hidden;
-  height: 80vh;
+  height: 60vh;
   background-image: url("../../../img/slide_two.jpg");
 }
 .embla__slide__inner_image3 {
   position: relative;
   overflow: hidden;
-  height: 80vh;
+  height: 60vh;
   background-image: url("../../../img/slide_three.jpg");
 }
 

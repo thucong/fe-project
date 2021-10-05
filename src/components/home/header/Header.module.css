@@ -22,11 +22,11 @@
 .header_logo {
   float: left;
   cursor: pointer;
-  margin-bottom: 20px;
+  padding: 0px;
+  margin: 0px;
 }
 .logo {
-  padding: 0;
-  max-width: 100%;
+  padding: 20px;
 }
 .header_search {
   float: none;
