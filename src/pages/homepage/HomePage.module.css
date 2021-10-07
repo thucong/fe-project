@@ -1,4 +1,15 @@
+.container {
+  margin: 0 auto;
+  width: 1230px;
+}
 .card {
   display: grid;
   grid-template-columns: auto auto auto auto auto;
+}
+
+.labels {
+  margin-bottom: 14px;
+  padding-top: 30px;
+  font-size: 3.5vh;
+  font-family: var(--font-family);
 }
