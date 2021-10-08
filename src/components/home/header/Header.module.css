@@ -26,7 +26,17 @@
   margin: 0px;
 }
 .logo {
-  padding: 20px;
+  width: 60px;
+  height: 60px;
+  margin-top: auto;
+  margin-bottom: auto;
+  background-image: url("../../../img/logo.jpg");
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+  position: relative;
+  cursor: pointer;
 }
 .header_search {
   float: none;

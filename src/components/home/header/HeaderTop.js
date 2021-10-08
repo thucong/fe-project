@@ -18,7 +18,7 @@ function HeaderTop(props) {
       <div className={styles.container}>
         <div className={styles.header_top}>
           <div className={styles.header_logo}>
-            {/* <img src="../../../img/logo.jpg" alt="logo" width={60} height={60}></img> */}
+            <div className={styles.logo}></div>
           </div>
           <div className={styles.header_search}>
             <div className={styles.search_toggle}>
