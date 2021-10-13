@@ -7,24 +7,31 @@ import styles from "./HomePage.module.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
-
+import {
+  LeftOutlined,
+  RightOutlined,
+ 
+} from "@ant-design/icons";
+import { useRef } from "react";
 const HomePage = ({ products }) => {
   let settings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
     slidesToShow: 4,
     slidesToScroll: 4,
     rows: 2,
   };
+  const sliderRef = useRef(null);
   return (
     <div>
       <Header />
       <ImageSlider></ImageSlider>
       <div className={styles.product}>
         <h1 className={styles.h1}>PRODUCT</h1>
+        <div className={styles.control}>
+          <div className={styles.arrow} onClick={() => sliderRef.current.slickPrev()}><LeftOutlined /></div>
+          <div className={styles.arrow}  onClick={() => sliderRef.current.slickNext()}><RightOutlined /></div>
+        </div>
       </div>
-      <Slider {...settings} className={styles.list}>
+      <Slider {...settings} className={styles.list} ref={sliderRef}>
         {products.map((product) => (
           <ProductCard
             key={product._id}
