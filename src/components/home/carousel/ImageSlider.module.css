@@ -1,8 +1,9 @@
 .embla {
   position: relative;
   background-color: #f7f7f7;
-  width: 100%;
+  width: 1230px;
   height: 80vh;
+  margin: 0 auto;
 }
 
 .embla__viewport {
