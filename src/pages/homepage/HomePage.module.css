@@ -1,3 +1,4 @@
+
 .list {
   width: 1230px;
   max-width: 100%;
@@ -25,4 +26,11 @@
 .arrow{
   margin-left: 5px;
   cursor: pointer;
+}
+
+.labels {
+  margin-bottom: 14px;
+  padding-top: 30px;
+  font-size: 3.5vh;
+  font-family: var(--font-family);
 }
