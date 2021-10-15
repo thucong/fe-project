@@ -26,7 +26,7 @@ const HomePage = ({ products, labels }) => {
     <div className={styles.container}>
       <Header />
       <ImageSlider></ImageSlider>
-      <div>
+      <div className={styles.list_label}>
         {labels.map((label) => (
           <div key={label._id} className={styles.labels}>
             {label.labelName}

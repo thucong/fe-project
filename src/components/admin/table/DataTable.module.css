@@ -7,7 +7,7 @@
 
 .table_container .title {
   font-size: 5vh;
-  margin-bottom: 2vh;
+  margin-bottom: 3vh;
 }
 .input_form {
   position: relative;
@@ -37,8 +37,8 @@
   height: 100%;
   border-radius: 5px;
   border: none;
-  background-color: #ffffff;
-  color: black;
+  background-color:white;
+  color:black;
   padding-left: 3.5vw;
   font-size: 1.1vw;
 }
@@ -72,6 +72,7 @@
   border-collapse: separate;
   border-spacing: 0 15px;
   width: 90%;
+  height: 100%;
   font-size: 1.1vw;
 }
 
@@ -96,10 +97,6 @@
   width: 5%;
 }
 
-.table tr {
-  height: 6.5vh;
-}
-
 .table_row {
   background-color: #ffffff;
   box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.2);
@@ -109,7 +106,6 @@
 
 .table_row:hover {
   transform: translateY(-2px);
-  cursor: pointer;
 }
 
 .table_row td {
@@ -156,9 +152,9 @@
   margin-right: auto;
   margin-left: auto;
   border-collapse: separate;
-  margin-top: 2vh;
   width: 86%;
   height: 5vh;
+  margin-top: 10px;
 }
 
 .bottom_page h3 {
@@ -199,8 +195,8 @@
 .modal {
   position: absolute !important;
   display: inline-block;
-  left: 105vw;
-  top: 45%;
+  left: 110vw;
+  top: 50%;
   width: 200vw;
 }
 
