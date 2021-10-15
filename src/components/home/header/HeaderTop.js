@@ -1,8 +1,6 @@
 import React, { useEffect, useState } from "react";
 import styles from "./Header.module.css";
-// import Image from "next/image";
-// import Link from "next/link";
-// import logo from "../../../img/logo.jpg";
+
 function HeaderTop(props) {
   const [hiddenAccount, setHiddenAccount] = useState(true);
   const [hiddenCart, setHiddenCart] = useState(true);
@@ -20,11 +18,6 @@ function HeaderTop(props) {
       <div className={styles.container}>
         <div className={styles.header_top}>
           <div className={styles.header_logo}>
-            {/* <Link href="/" passHref>
-              <a>
-                <Image src={logo} alt="logo" width={60} height={60}></Image>
-              </a>
-            </Link> */}
           </div>
           <div className={styles.header_search}>
             <div className={styles.search_toggle}>

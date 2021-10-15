@@ -1,4 +1,42 @@
-.card {
-  display: grid;
-  grid-template-columns: auto auto auto auto auto;
+
+.list {
+  width: 1230px;
+  max-width: 100%;
+  margin: auto;
+}
+.product {
+  border-bottom: 1px solid black;
+  width: 1230px;
+  max-width: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.h1 {
+  display: left;
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.control {
+  display: flex;
+  margin-bottom: 5px;
+  margin-top: auto;
+}
+.arrow{
+  margin-left: 5px;
+  cursor: pointer;
+}
+.labels {
+  margin-bottom: 10px;
+  padding-top: 10px;
+  font-size: 3vh;
+  font-family: var(--font-family);
+  margin-right: 20px;
+  margin-top: 50px;
+}
+.list_label {
+  display: flex;
+  width: 1230px;
+  margin: 0 auto;
 }
