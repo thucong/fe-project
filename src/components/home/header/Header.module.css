@@ -23,6 +23,14 @@
   float: left;
   cursor: pointer;
   margin-bottom: 20px;
+  width: 60px;
+  height: 60px;
+  background-image: url("../../../img/logo.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+  position: relative;
 }
 .logo {
   padding: 0;
