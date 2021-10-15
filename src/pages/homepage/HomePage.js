@@ -5,7 +5,23 @@ import ProductCard from "../../components/home/card/ProductCard";
 import { getProducts } from "../../services/ProductService";
 import { getLabels } from "../../services/labelService";
 import styles from "./HomePage.module.css";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import Slider from "react-slick";
+import {
+  LeftOutlined,
+  RightOutlined,
+ 
+} from "@ant-design/icons";
+import { useRef } from "react";
+
 const HomePage = ({ products, labels }) => {
+   let settings = {
+    slidesToShow: 4,
+    slidesToScroll: 4,
+    rows: 2,
+   };
+   const sliderRef = useRef(null);
   return (
     <div className={styles.container}>
       <Header />
@@ -17,7 +33,14 @@ const HomePage = ({ products, labels }) => {
           </div>
         ))}
       </div>
-      <div className={styles.card}>
+      <div className={styles.product}>
+        <h1 className={styles.h1}>PRODUCT</h1>
+        <div className={styles.control}>
+          <div className={styles.arrow} onClick={() => sliderRef.current.slickPrev()}><LeftOutlined /></div>
+          <div className={styles.arrow}  onClick={() => sliderRef.current.slickNext()}><RightOutlined /></div>
+        </div>
+      </div>
+      <Slider {...settings} className={styles.list} ref={sliderRef}>
         {products.map((product) => (
           <ProductCard
             key={product._id}
@@ -28,7 +51,7 @@ const HomePage = ({ products, labels }) => {
             image={product.productThumbnail}
           />
         ))}
-      </div>
+      </Slider>
       <Footer />
     </div>
   );

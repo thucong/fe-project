@@ -2,8 +2,9 @@
   position: relative;
   background-color: #f7f7f7;
   width: 1230px;
-  height: 80vh;
+  max-width: 100%;
   margin: 0 auto;
+  height: 60vh;
 }
 
 .embla__viewport {
@@ -33,25 +34,14 @@
   position: relative;
   min-width: 100%;
   padding-left: 10px;
+  object-fit: cover;
 }
 
-.embla__slide__inner_image1 {
+.embla__slide__inner{
   position: relative;
   overflow: hidden;
-  height: 80vh;
-  background-image: url("../../../img/slide_one.jpg");
-}
-.embla__slide__inner_image2 {
-  position: relative;
-  overflow: hidden;
-  height: 80vh;
-  background-image: url("../../../img/slide_two.jpg");
-}
-.embla__slide__inner_image3 {
-  position: relative;
-  overflow: hidden;
-  height: 80vh;
-  background-image: url("../../../img/slide_three.jpg");
+  object-fit: cover;
+ 
 }
 
 .embla__button_prev {

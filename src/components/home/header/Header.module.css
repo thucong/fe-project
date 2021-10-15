@@ -22,11 +22,21 @@
 .header_logo {
   float: left;
   cursor: pointer;
-  margin-bottom: 20px;
+  padding: 0px;
+  margin: 0px;
 }
 .logo {
-  padding: 0;
-  max-width: 100%;
+  width: 60px;
+  height: 60px;
+  margin-top: auto;
+  margin-bottom: auto;
+  background-image: url("../../../img/logo.jpg");
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+  position: relative;
+  cursor: pointer;
 }
 .header_search {
   float: none;
@@ -397,3 +407,4 @@
 .flag_name {
   margin-left: 10px;
 }
+

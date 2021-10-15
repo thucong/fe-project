@@ -20,19 +20,19 @@ const BottomFooter = () => {
       </div>
       <div className={styles.img_footer}>
         <span className={styles.img}>
-          <Image src={visa} width={50} height={30} />
+          <Image src={visa} width={50} height={30} alt="visa"/>
         </span>
         <span className={styles.img}>
-          <Image src={mastercard} width={50} height={30} />
+          <Image src={mastercard} width={50} height={30} alt="mastercard"/>
         </span>
         <span className={styles.img}>
-          <Image src={paypal} width={50} height={30} />
+          <Image src={paypal} width={50} height={30} alt="paypal"/>
         </span>
         <span className={styles.img}>
-          <Image src={carte} width={50} height={30} />
+          <Image src={carte} width={50} height={30} alt="carte"/>
         </span>
         <span className={styles.img}>
-          <Image src={express} width={50} height={30} />
+          <Image src={express} width={50} height={30} alt="express"/>
         </span>
       </div>
     </div>
