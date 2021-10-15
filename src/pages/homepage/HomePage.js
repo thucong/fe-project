@@ -26,14 +26,14 @@ const HomePage = ({ products, labels }) => {
     <div className={styles.container}>
       <Header />
       <ImageSlider></ImageSlider>
-      <div className={styles.product}>
-           <div>
+      <div>
         {labels.map((label) => (
           <div key={label._id} className={styles.labels}>
             {label.labelName}
           </div>
         ))}
       </div>
+      <div className={styles.product}>
         <h1 className={styles.h1}>PRODUCT</h1>
         <div className={styles.control}>
           <div className={styles.arrow} onClick={() => sliderRef.current.slickPrev()}><LeftOutlined /></div>
@@ -41,8 +41,6 @@ const HomePage = ({ products, labels }) => {
         </div>
       </div>
       <Slider {...settings} className={styles.list} ref={sliderRef}>
-   
-      <div className={styles.card}>
         {products.map((product) => (
           <ProductCard
             key={product._id}
