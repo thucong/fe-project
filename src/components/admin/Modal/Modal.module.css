@@ -1,8 +1,7 @@
 .modal {
-  max-width: 1200px;
+  width: 30%;
   border: 1px solid #bdbdbd;
   border-radius: 5px;
-  line-height: 30px;
   transition: all 0.5s ease;
   background-color: #eceff1;
 }
@@ -29,8 +28,8 @@
   width: 90%;
   border-radius: 5px;
   border: 1px solid #bdbdbd;
-  height: 40px;
-  font-size: 20px;
+  height: 5vh;
+  font-size: 4vh;
 }
 .label {
   float: left;
@@ -40,8 +39,8 @@
 .h2 {
   font-weight: bold;
   text-align: center;
-  font-size: 30px;
-  padding-top: 20px;
+  font-size: 5vh;
+  padding-top: 2vh;
 }
 .date {
   border-radius: 5px;
@@ -65,10 +64,10 @@
   border-radius: 5px;
   background-color: red;
   color: white;
-  width: 20%;
   margin-right: 80px;
-  height: 50px;
-  font-size: 20px;
+  width: 10%;
+  height: 5vh;
+  font-size: 3vh;
 }
 .cancel:hover {
   cursor: pointer;
@@ -78,17 +77,17 @@
   border-radius: 5px;
   background-color: #39d5d5;
   color: white;
-  width: 20%;
-  height: 50px;
-  font-size: 20px;
+  width: 10%;
+  height: 5vh;
+  font-size: 3vh;
 }
 .add:hover {
   cursor: pointer;
 }
 .button {
   text-align: center;
-  padding-bottom: 25px;
-  padding-top: 20px;
+  padding-bottom: 2vh;
+  padding-top: 2vh;
 }
 .edit {
   border: 1px solid white;
