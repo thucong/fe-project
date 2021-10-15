@@ -33,7 +33,7 @@ const CreateUser = (props) => {
           },
           headers: {
             authorization:
-              "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MTU2Y2YzZjY3OTk0ZTNhYzM2ZjRjOWEiLCJuYW1lIjoidGVzdGFkbWluMSIsImVtYWlsIjoibWljaGFlbDQyNkBlYXJ0aGxpbmsubmV0IiwicGFzc3dvcmQiOiJ0ZXN0cGFzczEiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE2MzQxOTIwNTcsImV4cCI6MTYzNDI3ODQ1N30._Ueg4c1b1w9EGTolt4xyV2oWABbr6iObNwMrBhuOsdY",
+              "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MTU2Y2YzZjY3OTk0ZTNhYzM2ZjRjOWEiLCJuYW1lIjoidGVzdGFkbWluMSIsImVtYWlsIjoibWljaGFlbDQyNkBlYXJ0aGxpbmsubmV0IiwicGFzc3dvcmQiOiJ0ZXN0cGFzczEiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE2MzQyNjAyMTQsImV4cCI6MTYzNDM0NjYxNH0.wosz2aRICtwHx-UPhWSoqNOJmwTIR4ETQ7w_tDyiAic",
           },
         }
       );
@@ -107,7 +107,7 @@ const CreateUser = (props) => {
         {
           headers: {
             authorization:
-              "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MTU2Y2YzZjY3OTk0ZTNhYzM2ZjRjOWEiLCJuYW1lIjoidGVzdGFkbWluMSIsImVtYWlsIjoibWljaGFlbDQyNkBlYXJ0aGxpbmsubmV0IiwicGFzc3dvcmQiOiJ0ZXN0cGFzczEiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE2MzQxOTIzMzAsImV4cCI6MTYzNDI3ODczMH0.zySpxbHWUmGoYb2cBn7si1QnMess4tP4B68d0Bd_wnM",
+              "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MTU2Y2YzZjY3OTk0ZTNhYzM2ZjRjOWEiLCJuYW1lIjoidGVzdGFkbWluMSIsImVtYWlsIjoibWljaGFlbDQyNkBlYXJ0aGxpbmsubmV0IiwicGFzc3dvcmQiOiJ0ZXN0cGFzczEiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE2MzQyNjAyMTQsImV4cCI6MTYzNDM0NjYxNH0.wosz2aRICtwHx-UPhWSoqNOJmwTIR4ETQ7w_tDyiAic",
           },
         }
       );
@@ -134,7 +134,7 @@ const CreateUser = (props) => {
         {
           headers: {
             authorization:
-              "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MTU2Y2YzZjY3OTk0ZTNhYzM2ZjRjOWEiLCJuYW1lIjoidGVzdGFkbWluMSIsImVtYWlsIjoibWljaGFlbDQyNkBlYXJ0aGxpbmsubmV0IiwicGFzc3dvcmQiOiJ0ZXN0cGFzczEiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE2MzQxOTIwNTcsImV4cCI6MTYzNDI3ODQ1N30._Ueg4c1b1w9EGTolt4xyV2oWABbr6iObNwMrBhuOsdY",
+              "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MTU2Y2YzZjY3OTk0ZTNhYzM2ZjRjOWEiLCJuYW1lIjoidGVzdGFkbWluMSIsImVtYWlsIjoibWljaGFlbDQyNkBlYXJ0aGxpbmsubmV0IiwicGFzc3dvcmQiOiJ0ZXN0cGFzczEiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE2MzQyNjAyMTQsImV4cCI6MTYzNDM0NjYxNH0.wosz2aRICtwHx-UPhWSoqNOJmwTIR4ETQ7w_tDyiAic",
           },
         }
       );
@@ -195,7 +195,7 @@ const CreateUser = (props) => {
             className={styles.input_full}
             placeholder="Type your username"
             value={username}
-            disabled={props.isShow}
+            disabled={props.isShow || props.isUpdate}
             onChange={(event) => updateValue(event, "username")}
           ></input>
         </div>
