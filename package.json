@@ -19,11 +19,14 @@
     "axios": "^0.21.4",
     "chart.js": "^3.5.1",
     "embla-carousel": "^4.5.3",
+    "moment": "^2.29.1",
     "next": "11.1.0",
     "react": "17.0.2",
     "react-chartjs-2": "^3.0.4",
     "react-dom": "17.0.2",
+    "react-notifications": "^1.7.2",
     "react-reveal": "^1.2.2",
+    "react-slick": "^0.28.1",
     "slick-carousel": "^1.8.1"
   },
   "devDependencies": {
