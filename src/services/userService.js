@@ -7,7 +7,7 @@ export const getUsers = async () => {
       {
         headers: {
           authorization:
-            "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MTU2Y2YzZjY3OTk0ZTNhYzM2ZjRjOWEiLCJuYW1lIjoidGVzdGFkbWluMSIsImVtYWlsIjoibWljaGFlbDQyNkBlYXJ0aGxpbmsubmV0IiwicGFzc3dvcmQiOiJ0ZXN0cGFzczEiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE2MzQyNjAyMTQsImV4cCI6MTYzNDM0NjYxNH0.wosz2aRICtwHx-UPhWSoqNOJmwTIR4ETQ7w_tDyiAic",
+            "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MTU2ZDAzN2JiY2UyYzgwM2ZkMThmMWEiLCJuYW1lIjoidGVzdGFkbWluMSIsImVtYWlsIjoibWljaGFlbDQyNkBlYXJ0aGxpbmsubmV0IiwicGFzc3dvcmQiOiJ0ZXN0cGFzczEiLCJyb2xlIjoiYWRtaW4iLCJpYXQiOjE2MzQ2MDk2NjcsImV4cCI6MTYzNDY5NjA2N30.zR_Vy_albUmKkq-TsJSi21BpCmh-kugPf7-qCuLYspA",
         },
       }
     );

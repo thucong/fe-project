@@ -43,6 +43,21 @@
   font-size: 1.1vw;
 }
 
+.search_add button {
+  width: 4vw;
+  height: 100%;
+  border: none;
+  border-radius: 5px;
+  transition: all 0.5s;
+}
+
+.search_add button:hover {
+  cursor: pointer;
+  background-color: white;
+  color: blue;
+  border: solid 0.2px black;
+}
+
 .search_add input::placeholder {
   color: black;
 }
@@ -110,6 +125,21 @@
 .table_row:hover {
   transform: translateY(-2px);
   cursor: pointer;
+}
+
+.table_row button {
+  width: 3vw;
+  height: 5vh;
+  border: none;
+  border-radius: 5px;
+  transition: all 0.5s;
+}
+
+.table_row button:hover {
+  cursor: pointer;
+  background-color: white;
+  color: blue;
+  border: solid 0.2px black;
 }
 
 .table_row td {
